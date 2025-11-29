@@ -63,3 +63,18 @@ body {
   flex-grow: 1;
   padding: 30px;
 }
+
+.sparkle {
+  position: fixed;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  background: #ffd98e;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to { transform: translateY(110vh); opacity: 0; }
+}
