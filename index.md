@@ -52,3 +52,9 @@ For now, it shows placeholders the algorithm is expecting from your workbook:
 [ ] Romance Style  
 [ ] Communication Style  
 [ ] Emotional Regulation Level  
+
+
+<div class="footer">
+  Made with 💛 by Araceli (Mystic Enchantress) & Lumina  
+</div>
+```
