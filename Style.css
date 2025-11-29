@@ -1,45 +1,65 @@
 body {
-  font-family: "Georgia", serif;
-  background: linear-gradient(180deg, #0c0f27, #1a1d45);
+  font-family: "Times New Roman", serif;
+  background: radial-gradient(circle at top, #1a1d45, #0c0f27 60%);
+  margin: 0;
+  padding: 0;
   color: #f4e9d8;
-  padding: 20px;
 }
 
-h1, h2, h3 {
-  color: #ffd98e;
-  text-shadow: 0 0 10px rgba(255, 200, 150, 0.4);
-}
-
-.header {
+.hero {
   text-align: center;
-  margin-bottom: 40px;
+  padding: 60px 20px;
+  background: url('https://raw.githubusercontent.com/celibelle/A-Match-Making-Algorithm-Powered-by-Forensic-Psychology/main/assets/sparkle.png') repeat;
+  animation: glow 4s infinite alternate;
 }
 
-.nav-button {
+@keyframes glow {
+  from { text-shadow: 0 0 5px #ffd98e; }
+  to   { text-shadow: 0 0 20px #ffd98e; }
+}
+
+.hero-button {
   display: inline-block;
-  padding: 12px 20px;
-  margin: 10px;
-  border: 2px solid #ffd98e;
-  border-radius: 8px;
+  padding: 14px 28px;
+  margin-top: 20px;
+  background: #ffd98e;
+  color: #1a1d45;
   text-decoration: none;
-  color: #ffd98e;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffd98e;
   transition: 0.3s ease;
 }
 
-.nav-button:hover {
-  background: #ffd98e;
-  color: #1a1d45;
+.hero-button:hover {
+  background: #fff3d4;
+  box-shadow: 0 0 20px #ffd98e;
 }
 
-.intro, .footer {
-  border-left: 4px solid #ffd98e;
-  padding-left: 15px;
-  margin-bottom: 20px;
+.layout {
+  display: flex;
+  margin-top: 40px;
 }
 
-.footer {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 0.9em;
-  opacity: 0.7;
+.sidebar {
+  width: 230px;
+  flex-shrink: 0;
+  padding: 20px;
+  border-right: 2px solid #ffd98e;
+}
+
+.sidebar a {
+  display: block;
+  color: #ffd98e;
+  margin: 12px 0;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 30px;
 }
