@@ -1,0 +1,45 @@
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(180deg, #0c0f27, #1a1d45);
+  color: #f4e9d8;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #ffd98e;
+  text-shadow: 0 0 10px rgba(255, 200, 150, 0.4);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  border: 2px solid #ffd98e;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffd98e;
+  transition: 0.3s ease;
+}
+
+.nav-button:hover {
+  background: #ffd98e;
+  color: #1a1d45;
+}
+
+.intro, .footer {
+  border-left: 4px solid #ffd98e;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.7;
+}
