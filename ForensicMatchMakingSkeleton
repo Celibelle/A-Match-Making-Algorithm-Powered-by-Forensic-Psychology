@@ -1,0 +1,36 @@
+matchmaker/
+│
+├── README.md
+├── .gitignore
+│
+├── run_match.py
+│
+├── matchmaker/
+│   ├── __init__.py
+│   │
+│   ├── profiles/
+│   │   ├── __init__.py
+│   │   ├── person_template.json
+│   │
+│   ├── assessments/
+│   │   ├── __init__.py
+│   │   ├── mbti.py
+│   │   ├── enneagram.py
+│   │   ├── tritype.py
+│   │   ├── ocean.py
+│   │   ├── attachment.py
+│   │   ├── love_languages.py
+│   │   ├── values.py
+│   │   ├── communication.py
+│   │   ├── conflict_style.py
+│   │   ├── lifestyle.py
+│   │   ├── goals.py
+│   │
+│   ├── algorithm/
+│   │   ├── __init__.py
+│   │   ├── weighting.py
+│   │   ├── matchmaker_engine.py
+│   │
+│   ├── reports/
+│       ├── __init__.py
+│       ├── report_generator.py
