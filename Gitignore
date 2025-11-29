@@ -1,0 +1,12 @@
+---
+
+# 📄 **FILE 2 — .gitignore**
+
+```gitignore
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+.DS_Store
+*.log
