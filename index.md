@@ -1,58 +1,79 @@
 ---
-title: Mystic Match-Making Algorithm
+title: Mystic Enchantress Match-Making Algorithm
 ---
 
 <link rel="stylesheet" href="style.css">
 <script src="enchantress.js"></script>
 
-<div class="header">
-  <h1>✨ Mystic Enchantress Match-Making Algorithm ✨</h1>
-  <p>Powered by Forensic Psychology, Magic, and Soul Science</p>
+<div class="hero">
+  <h1>✨ Mystic Enchantress Match-Making Portal ✨</h1>
+  <p>The fusion of forensic psychology, personality science, emotional intelligence, and celestial magic.</p>
+  <a href="assessment.md" class="hero-button">Begin Your Compatibility Journey ➜</a>
 </div>
 
-<div class="intro">
-  <p>
-    Welcome, traveler. This portal analyzes personality, cognition, trauma history, neurotype,
-    emotional availability, attachment style, communication style, moral alignment, 
-    and mystical resonance fields to calculate compatibility.
-  </p>
+<div class="layout">
 
-  <p>
-    This website will walk you through the process step-by-step. 
-    Once your workbook is complete, you will enter your results and the Enchantress will 
-    compute your perfect soulmate match.
-  </p>
+<div class="sidebar">
+  <h3>🔮 Navigation</h3>
+  <a href="index.md">Home</a>
+  <a href="assessment.md">Input Your Profile</a>
+  <a href="algorithm.md">How the Algorithm Works</a>
+  <a href="about.md">About the Enchantress</a>
 </div>
 
-<div class="navigation">
-  <a class="nav-button" href="#quiz">⚡ Start Compatibility Input</a>
-  <a class="nav-button" href="#how-it-works">🌙 How It Works</a>
-  <a class="nav-button" href="#science">📘 Psychological Science</a>
-</div>
+<div class="content">
+
+## 🌙 Welcome, Traveler
+
+You’ve entered a sacred portal where:
+- Psychology meets intuition  
+- Attachment meets alchemy  
+- Personality meets soul resonance  
+- Logic meets destiny  
+
+This algorithm analyzes more than data—it analyzes **your essence**.
 
 ---
 
-## 🌙 <a id="quiz"></a> Compatibility Input (Coming Soon)
+## ✨ What This Portal Does
 
-This section will eventually be an interactive form.  
-For now, it shows placeholders the algorithm is expecting from your workbook:
+✔ Converts personality traits into numerical vectors  
+✔ Calculates emotional safety scores  
+✔ Analyzes trauma triggers and soothing styles  
+✔ Determines communication harmony  
+✔ Evaluates purpose alignment  
+✔ Detects soul-archetype resonance  
+✔ Produces a full compatibility score  
+✔ Generates a soulmate report (coming soon)
 
-```text
-[ ] MBTI Type  
-[ ] Enneagram Type  
-[ ] Tri-Type  
-[ ] Big Five (OCEAN)  
-[ ] Love Language  
-[ ] Attachment Style  
-[ ] Moral Alignment  
-[ ] Sensory Profile  
-[ ] Trauma Markers  
-[ ] Values & Life Mission  
-[ ] Social Battery Level  
-[ ] Romance Style  
-[ ] Communication Style  
-[ ] Emotional Regulation Level  
+---
 
+## 🌟 Who This Helps
+
+- Empaths  
+- Autistic women seeking safe love  
+- Sensitive or intuitive personalities  
+- Anxious or avoidant attachment styles  
+- Homebodies  
+- Old souls  
+- Trauma survivors  
+- Logical, deep thinkers (INTJs, INFJs, INFPs)
+
+This portal is **your mirror**, your guide, your compass.
+
+---
+
+## 🕯 The Enchantress Blessing
+
+> “May your match be one who sees your mind, protects your heart,  
+> supports your spirit, and honors your softness.”  
+
+<div class="footer">
+  Made with love by Araceli (Mystic Enchantress) & Lumina
+</div>
+
+</div>
+</div>
 
 <div class="footer">
   Made with 💛 by Araceli (Mystic Enchantress) & Lumina  
