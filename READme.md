@@ -63,3 +63,25 @@ See the folder tree included in this repository.
 
 ```bash
 python3 run_match.py
+
+# 🔮 A Match-Making Algorithm Powered by Forensic Psychology
+
+Welcome to the **Forensic Psychology + Magical Compatibility Algorithm**, created by Araceli (“Mystic Enchantress”) and Lumina AI.  
+This project combines:
+
+- 🧠 MBTI  
+- ✨ Enneagram  
+- 🌊 OCEAN  
+- ❤️ Attachment Theory  
+- 🔥 Love Languages  
+- 🎭 Shadow Traits  
+- 👑 Moral Foundations  
+- 🌱 Trauma Patterns  
+- 💫 Future Goal Alignment  
+- 🪄 Magical Personal Resonance (Mystic Enchantress energy)
+
+All blended into a beautifully weighted algorithm that calculates **true compatibility** between two people.
+
+---
+
+## 📁 Project Structure
