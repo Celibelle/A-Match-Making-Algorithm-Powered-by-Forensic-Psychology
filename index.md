@@ -1,31 +1,54 @@
 ---
+title: Mystic Match-Making Algorithm
+---
 
-# 🌟 3. GITHUB PAGES TEMPLATE (Optional but Recommended)
+<link rel="stylesheet" href="style.css">
+<script src="enchantress.js"></script>
 
-If you want a **public website** for your algorithm:
+<div class="header">
+  <h1>✨ Mystic Enchantress Match-Making Algorithm ✨</h1>
+  <p>Powered by Forensic Psychology, Magic, and Soul Science</p>
+</div>
 
-Create a new file named: **index.md**
+<div class="intro">
+  <p>
+    Welcome, traveler. This portal analyzes personality, cognition, trauma history, neurotype,
+    emotional availability, attachment style, communication style, moral alignment, 
+    and mystical resonance fields to calculate compatibility.
+  </p>
 
-Paste:
+  <p>
+    This website will walk you through the process step-by-step. 
+    Once your workbook is complete, you will enter your results and the Enchantress will 
+    compute your perfect soulmate match.
+  </p>
+</div>
 
-```markdown
-# ✨ Forensic Psychology Match-Making Algorithm
+<div class="navigation">
+  <a class="nav-button" href="#quiz">⚡ Start Compatibility Input</a>
+  <a class="nav-button" href="#how-it-works">🌙 How It Works</a>
+  <a class="nav-button" href="#science">📘 Psychological Science</a>
+</div>
 
-Welcome to the official documentation site for Araceli’s Match-Making Algorithm.
+---
 
-## 💛 What This Algorithm Does
+## 🌙 <a id="quiz"></a> Compatibility Input (Coming Soon)
 
-It blends proven psychological assessment frameworks with mystical weighting to determine true compatibility between two people.
+This section will eventually be an interactive form.  
+For now, it shows placeholders the algorithm is expecting from your workbook:
 
-### Included Systems
-- MBTI  
-- Enneagram  
-- OCEAN  
-- Attachment Style  
-- Love Languages  
-- Values  
-- Relationship Archetype  
-- Trauma Profile  
-- Magical Resonance Calculation  
-
-### Example Output
+```text
+[ ] MBTI Type  
+[ ] Enneagram Type  
+[ ] Tri-Type  
+[ ] Big Five (OCEAN)  
+[ ] Love Language  
+[ ] Attachment Style  
+[ ] Moral Alignment  
+[ ] Sensory Profile  
+[ ] Trauma Markers  
+[ ] Values & Life Mission  
+[ ] Social Battery Level  
+[ ] Romance Style  
+[ ] Communication Style  
+[ ] Emotional Regulation Level  
