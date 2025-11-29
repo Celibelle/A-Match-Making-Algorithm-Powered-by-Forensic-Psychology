@@ -66,3 +66,62 @@ class Matchmaker:
             "raw_compatibility": round(raw_score, 2),
             "final_compatibility": round(final_score, 2),
         }
+        
+        """
+matchmaker.py
+Core algorithm for Mystic Enchantress Match-Making.
+"""
+
+from matchmaker_profiles import UserProfile
+
+class MatchMaker:
+    """
+    Computes compatibility between two UserProfile objects.
+    """
+
+    def __init__(self):
+        # Weight settings (can be changed later)
+        self.weights = {
+            "mbti": 0.25,
+            "enneagram": 0.25,
+            "attachment": 0.25,
+            "values": 0.25
+        }
+
+    def compare_strings(self, a, b):
+        """Simple string similarity placeholder."""
+        if not a or not b:
+            return 0
+        return 100 if a.lower() == b.lower() else 0
+
+    def compare_lists(self, list_a, list_b):
+        """Compare list overlap (e.g., values, goals)."""
+        if not list_a or not list_b:
+            return 0
+        overlap = len(set(list_a).intersection(set(list_b)))
+        total = max(len(list_a), len(list_b))
+        return (overlap / total) * 100
+
+    def compatibility_score(self, p1: UserProfile, p2: UserProfile):
+        """Calculates full compatibility score."""
+        scores = {}
+
+        # MBTI match
+        scores["mbti"] = self.compare_strings(p1.mbti, p2.mbti)
+
+        # Enneagram match
+        scores["enneagram"] = self.compare_strings(p1.enneagram, p2.enneagram)
+
+        # Attachment style safety
+        scores["attachment"] = self.compare_strings(
+            p1.attachment_style,
+            p2.soothing_style
+        )
+
+        # Shared values
+        scores["values"] = self.compare_lists(p1.values, p2.values)
+
+        # Weighted score
+        final_score = sum(scores[key] * self.weights[key] for key in scores)
+
+        return round(final_score, 2), scores
