@@ -1,13 +1,14 @@
-// Simple glowing effect for buttons
-document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".nav-button");
-
-  buttons.forEach(btn => {
-    btn.addEventListener("mouseover", () => {
-      btn.style.boxShadow = "0 0 15px #ffd98e";
-    });
-    btn.addEventListener("mouseout", () => {
-      btn.style.boxShadow = "none";
-    });
-  });
+// Floating sparkles
+document.addEventListener("DOMContentLoaded", () => {
+  for (let i = 0; i < 20; i++) createSparkle();
 });
+
+function createSparkle() {
+  const sparkle = document.createElement("div");
+  sparkle.className = "sparkle";
+  sparkle.style.left = Math.random() * 100 + "vw";
+  sparkle.style.animationDuration = 4 + Math.random() * 6 + "s";
+  document.body.appendChild(sparkle);
+
+  setTimeout(() => sparkle.remove(), 10000);
+}
