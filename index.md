@@ -1,6 +1,7 @@
 ---
 title: "Mystic Enchantress Match-Making Portal"
 layout: page
+theme: minima
 ---
 
 <link rel="stylesheet" href="style.css">
