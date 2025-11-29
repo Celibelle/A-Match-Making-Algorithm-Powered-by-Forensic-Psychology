@@ -1,1 +1,55 @@
+/* ✨ Mystic Enchantress Aesthetic ✨ */
 
+body {
+  background: radial-gradient(circle at top, #2e003e, #0a0014);
+  color: #f7eaff;
+  font-family: "Cinzel", serif;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: #ffd6ff;
+  text-shadow: 0 0 10px #b300ff;
+}
+
+a {
+  color: #c58bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd6ff;
+  text-shadow: 0 0 10px #ff9cff;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,200,255,0.05));
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(200,100,255,0.4);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #e0b7ff;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #9b4dff;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #c58bff;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background: #c58bff;
+  box-shadow: 0 0 30px #ffb3ff;
+}
