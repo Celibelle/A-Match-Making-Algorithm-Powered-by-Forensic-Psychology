@@ -1,48 +1,63 @@
-/* ✨ Mystic Enchantress Aesthetic ✨ */
+/* ✨ Mystic Enchantress Aesthetic — Mint & Purple Edition ✨ */
 
+/* Import Automali font */
+@import url('https://fonts.cdnfonts.com/css/automali');
+
+/* Page background */
 body {
-  background: radial-gradient(circle at top, #2e003e, #0a0014);
-  color: #f7eaff;
-  font-family: "Cinzel", serif;
+  background: #c9ffeb; /* soft mint */
+  color: #3b145e; /* deep plum for readability */
+  font-family: "Cormorant Garamond", serif;
   padding: 20px;
   line-height: 1.7;
 }
 
+/* Headers using Automali */
 h1, h2, h3 {
-  color: #ffd6ff;
-  text-shadow: 0 0 10px #b300ff;
+  font-family: 'Automali', sans-serif;
+  color: #6a0dad; /* royal purple */
+  text-shadow: 0 0 10px rgba(106, 13, 173, 0.3);
 }
 
+/* Paragraph + general text */
+p, li, a {
+  font-size: 1.05rem;
+}
+
+/* Navigation, links */
 a {
-  color: #c58bff;
+  color: #8b3fff; /* lighter purple */
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffd6ff;
-  text-shadow: 0 0 10px #ff9cff;
+  color: #5b0099;
+  text-shadow: 0 0 8px rgba(148, 0, 211, 0.4);
 }
 
+/* Hero section */
 .hero {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,200,255,0.05));
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 15px;
-  box-shadow: 0 0 30px rgba(200,100,255,0.4);
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 18px;
+  border: 1px solid rgba(106, 13, 173, 0.2);
+  box-shadow: 0 0 25px rgba(106, 13, 173, 0.2);
 }
 
+/* Hero subtitle */
 .subtitle {
   font-size: 1.2rem;
-  color: #e0b7ff;
+  color: #5d2f7a;
 }
 
+/* Call-to-action button */
 .cta-button {
   display: inline-block;
   margin-top: 15px;
-  padding: 12px 25px;
-  background: #9b4dff;
+  padding: 12px 22px;
+  background: #7a22c3;
   color: white;
   border-radius: 10px;
   box-shadow: 0 0 20px #c58bff;
@@ -50,6 +65,15 @@ a:hover {
 }
 
 .cta-button:hover {
-  background: #c58bff;
-  box-shadow: 0 0 30px #ffb3ff;
+  background: #a14cff;
+  box-shadow: 0 0 30px #d8afff;
+}
+
+/* Make sections smooth + rounded */
+section, div, .content-box {
+  background: rgba(255, 255, 255, 0.35);
+  padding: 20px;
+  border-radius: 14px;
+  margin: 20px 0;
+  border: 1px solid rgba(106, 13, 173, 0.15);
 }
