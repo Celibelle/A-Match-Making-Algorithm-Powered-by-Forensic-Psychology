@@ -1,5 +1,6 @@
 ---
-title: Mystic Enchantress Match-Making Algorithm
+title: "Mystic Enchantress Match-Making Portal"
+layout: page
 ---
 
 <link rel="stylesheet" href="style.css">
